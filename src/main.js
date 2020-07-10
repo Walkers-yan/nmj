@@ -11,6 +11,9 @@ import 'vant/lib/index.css'
 // 加载全局样式
 import './styles/index.less'
 
+// 动态适配REM
+import 'amfe-flexible'
+
 // 加载vant所有组件
 Vue.use(Vant)
 
